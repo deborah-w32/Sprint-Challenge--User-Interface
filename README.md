@@ -40,11 +40,22 @@ Semantic HTML give meaning to your code. It adds readabitlity for those who are 
 
 2. What are the 4 areas of the box model?
 
+Margin
+Border
+Padding
+content
+
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+Cross-axis
 
 4. Explain why git is valuable to a team of developers.
 
+It allows them to all work simultaneously on a project without interrupting each other. They can the merge them together with no problems and check what they each have done.
+
 5. Define mobile-first design in your own words.
+
+It is a design style that allows you to work from the smallest screen up, thus allowing you to perfect the layout for each screen as you go up.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

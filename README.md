@@ -36,6 +36,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML give meaning to your code. It adds readabitlity for those who are reading your page, including machines and humans.
+
 2. What are the 4 areas of the box model?
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?

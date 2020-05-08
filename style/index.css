@@ -204,26 +204,23 @@ footer nav a {
 }
 
 @media(max-width: 800px){
-    .middle-content{
-        width: 100%;
+    .headcontainer{
+        display:flex;
+        flex-wrap:column wrap;
+        width: 45%;
+        
+    }
+    
+    .text-container{
+        display:flex;
+        flex-wrap: column wrap;
+        
     }
     .boxes{
         display:flex;
-        flex-wrap: column wrap;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-    .boxcontainone{
-        display:flex;
-        flex-wrap: column wrap;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-    .boxcontaintwo{
-        display:flex;
-        flex-wrap: column wrap;
-        justify-content: space-evenly;
-        width: 100%;
+        flex-wrap: column wrap; 
+        justify-content: space-between;
+        align-items: center;
     }
 }
 @media(max-width: 500px){

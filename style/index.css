@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 5%
 }
 ol, ul {
 	list-style: none;
@@ -63,22 +64,31 @@ h1{
     font-weight:bold;
 }
 header{
-    font-size: 1.6rem;
     display: flex;
-    justify-content: space-evenly;
-    margin: 2%;
+    flex-direction: row;
+    justify-content: flex-start;
 }
-header nav{
+.navcontain{
     display: flex;
+    flex-direction: row nowrap;
+    margin: 2%;
     justify-content: space-evenly;
-    align-items: flex-start;
+    width: 100%;
+    color: black;
+    font-size: 1.6rem;
+}
+
+.banner img{
+    margin: 2%;
 }
 h2, h3, h4, h5 {
     font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 p {
     line-height: 1.4;
     font-size:1.6rem;
@@ -194,10 +204,26 @@ footer nav a {
 }
 
 @media(max-width: 800px){
-    .index-container{
+    .middle-content{
+        width: 100%;
+    }
+    .boxes{
         display:flex;
         flex-wrap: column wrap;
-        
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .boxcontainone{
+        display:flex;
+        flex-wrap: column wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .boxcontaintwo{
+        display:flex;
+        flex-wrap: column wrap;
+        justify-content: space-evenly;
+        width: 100%;
     }
 }
 @media(max-width: 500px){

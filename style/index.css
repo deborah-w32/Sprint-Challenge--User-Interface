@@ -62,9 +62,17 @@ h1{
     font-family: 'Rubik', sans-serif;
     font-weight:bold;
 }
-nav{
+header{
     font-size: 1.6rem;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
+/*nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}*/
 h2, h3, h4, h5 {
     font-size: 1.8rem;
     margin-bottom: 15px;

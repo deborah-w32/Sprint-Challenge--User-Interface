@@ -78,7 +78,7 @@ header{
     color: black;
     font-size: 1.6rem;
 }
-nav{
+header nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -201,10 +201,10 @@ footer {
 }
 
 footer nav {
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px 2%;
     font-size: 1.4rem;
 }
@@ -215,34 +215,32 @@ footer nav a {
 }
 
 @media(max-width: 800px){
-    .headcontainer{
-        display:flex;
-        flex-flow: row wrap;
-        
-    }
-    .middle-content .boxes{
-        display:flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
-        width:100%;
-        height: 50%;
-    }
-    .text-container-one{
-        display:flex;
-        flex-flow:column wrap;
-        width: 50%;
-        
-    }
-    .boxes{
-        display:flex;
-        flex-flow: column wrap; 
-        justify-content: space-between;
-        align-items: center;
-        width:50%;
-        height: 50%;
-    }
+.bottom-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    align-items: space-around;
+    justify-content: space-between;
+    border: 1px solid rebeccapurple;
+}
+.middle-content{
+    border: 1px solid yellow;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.boxes{
+    border: 1px solid aqua;
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    align-self: center;
+    justify-content: space-between;
+}
+footer nav{
+    width:100%;
+}
+
 }
 @media(max-width: 500px){
     header{
@@ -263,6 +261,7 @@ footer nav a {
     .headcontainer, .top-content{
         display:flex;
         flex-flow: row wrap;
+        width:50%;
     }
     .text-container{
         display:flex;
